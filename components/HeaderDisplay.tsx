@@ -30,7 +30,7 @@ export const HeaderDisplay: React.FC<HeaderDisplayProps> = ({ data, loading }) =
              <span className="text-amber-500 animate-pulse tracking-widest">Adjusting!</span>
           ) : (
              <>
-               <span className="text-amber-500">{hijri.day -1 }</span> {hijri.month.en} <span className="hidden md:inline">, {hijri.year}</span>
+               <span className="text-amber-500">{hijri.day}</span> {hijri.month.en} <span className="hidden md:inline">, {hijri.year}</span>
              </>
           )}
         </h1>
